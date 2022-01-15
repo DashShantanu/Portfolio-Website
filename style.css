@@ -20,11 +20,12 @@ html {
   font-family: "Fira Sans", sans-serif;
   background-color: red;
   width: 12.5%;
+  height: 100vh;
+  padding: 4.5rem;
 }
 
 .nav-list {
   font-size: 3rem;
-  padding: 4.5rem;
   display: flex;
   flex-direction: column;
   row-gap: 3.3rem;
@@ -35,6 +36,27 @@ html {
 }
 
 .main {
+  display: flex;
+  justify-content: center;
   background-color: yellow;
   width: 87.5%;
+}
+
+.info-container {
+  display: flex;
+  background-color: violet;
+  height: 75vh;
+  width: 90%;
+  margin-top: 12rem;
+  justify-content: space-around;
+}
+
+.dev-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dev-pic img {
+  height: 75vh;
 }
